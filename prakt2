@@ -1,0 +1,14 @@
+a=int(input())
+c=0
+dd=0
+b=a
+while a!=0:
+    a=int(input())
+    if a==b and a!=0:
+        c+=1
+        if c>dd:
+            dd=c
+    else:
+        c=1
+    b=a
+print(dd)
